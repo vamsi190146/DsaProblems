@@ -11,7 +11,6 @@ public class TreeNode {
         this.right = right;
     }
 }
-
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
