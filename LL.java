@@ -44,7 +44,6 @@ public class LinkedListOperations {
         curr.next = null;
         return head;
     }
-
     public static void printLinkedList(ListNode head) {
         ListNode curr = head;
         while (curr != null) {
