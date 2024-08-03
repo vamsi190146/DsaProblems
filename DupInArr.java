@@ -1,4 +1,5 @@
 class Solution {
+    
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> ans = new ArrayList<>();
         Set<Integer> seen = new HashSet<>();
