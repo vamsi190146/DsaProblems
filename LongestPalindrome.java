@@ -18,7 +18,6 @@ public class Solution {
 
         return maxStr;
     }
-
     private boolean isPalindrome(String str) {
         int left = 0;
         int right = str.length() - 1;
