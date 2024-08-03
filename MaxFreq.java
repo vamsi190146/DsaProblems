@@ -5,7 +5,6 @@ class Solution {
         {
              map.put(i,map.getOrDefault(i,0)+1);
         }
-
         int maxfreq=0;
         for(int i:map.values())
         {
