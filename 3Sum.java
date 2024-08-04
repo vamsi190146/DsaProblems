@@ -4,7 +4,7 @@ public class Solution {
         if (nums == null || nums.length < 3) {
             return result;
         }
-        Arrays.sort(nums); // Sort the array to use two-pointer technique
+        Arrays.sort(nums); 
 
         for (int i = 0; i < nums.length - 2; i++) {
             // Skip duplicate elements to avoid duplicate triplets
