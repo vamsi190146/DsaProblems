@@ -13,7 +13,6 @@ class Solution {
             total_waiting_time += waiting_time;
             current_time += service;
         }
-
         return total_waiting_time / customers.length;
     }
 }
