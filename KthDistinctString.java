@@ -8,7 +8,6 @@ class Solution {
             countMap.put(str, countMap.getOrDefault(str, 0) + 1);
         }
 
-        // Step 2: Identify distinct strings
         List<String> distinctStrings = new ArrayList<>();
         for (String str : arr) {
             if (countMap.get(str) == 1) {
