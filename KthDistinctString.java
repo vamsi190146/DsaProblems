@@ -18,7 +18,7 @@ class Solution {
         if (k - 1 < distinctStrings.size()) {
             return distinctStrings.get(k - 1);
         } else {
-            return ""; // Return empty string if there are not enough distinct strings
+            return "";
         }
     }
 
