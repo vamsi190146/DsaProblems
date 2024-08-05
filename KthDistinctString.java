@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public String kthDistinct(String[] arr, int k) {
-        // Step 1: Count occurrences of each string
+
         Map<String, Integer> countMap = new HashMap<>();
         for (String str : arr) {
             countMap.put(str, countMap.getOrDefault(str, 0) + 1);
