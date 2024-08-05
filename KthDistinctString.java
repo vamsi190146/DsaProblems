@@ -21,7 +21,6 @@ class Solution {
             return "";
         }
     }
-
     public static void main(String[] args) {
         Solution solution = new Solution();
         String[] arr = {"apple", "banana", "apple", "orange", "banana", "grape", "kiwi"};
