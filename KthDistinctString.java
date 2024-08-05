@@ -1,0 +1,38 @@
+import java.util.*;
+
+class Solution {
+    public String kthDistinct(String[] arr, int k) {
+        // Step 1: Count occurrences of each string
+        Map<String, Integer> countMap = new HashMap<>();
+        for (String str : arr) {
+            countMap.put(str, countMap.getOrDefault(str, 0) + 1);
+        }
+
+        // Step 2: Identify distinct strings
+        List<String> distinctStrings = new ArrayList<>();
+        for (String str : arr) {
+            if (countMap.get(str) == 1) {
+                distinctStrings.add(str);
+            }
+        }
+
+        // Step 3: Find the Kth distinct string
+        if (k - 1 < distinctStrings.size()) {
+            return distinctStrings.get(k - 1);
+        } else {
+            return ""; // Return empty string if there are not enough distinct strings
+        }
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        String[] arr = {"apple", "banana", "apple", "orange", "banana", "grape", "kiwi"};
+        int k = 2;
+        String result = solution.kthDistinct(arr, k);
+        if (!result.isEmpty()) {
+            System.out.println("The " + k + "th distinct string is: " + result);
+        } else {
+            System.out.println("There are not enough distinct strings in the array.");
+        }
+    }
+}
