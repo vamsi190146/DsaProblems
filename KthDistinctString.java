@@ -15,7 +15,6 @@ class Solution {
             }
         }
 
-        // Step 3: Find the Kth distinct string
         if (k - 1 < distinctStrings.size()) {
             return distinctStrings.get(k - 1);
         } else {
