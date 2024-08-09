@@ -15,6 +15,7 @@ class Solution {
                 if(isPalindrome(s, i, j)) ans++;
             }
         }
+        
         return ans;
     }
 }
