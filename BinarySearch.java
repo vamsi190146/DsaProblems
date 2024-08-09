@@ -22,6 +22,7 @@ public class BinarySearch {
             } else if (arr[mid] < target) {
                 left = mid + 1;
             } else {
+              
                 right = mid - 1;
             }
         }
