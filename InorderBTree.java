@@ -12,7 +12,6 @@ public class TreeNode {
         this.right = right;
     }
 }
-
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
