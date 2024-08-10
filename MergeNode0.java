@@ -12,8 +12,7 @@ public class Solution {
                 sum += nextSum.val;
                 nextSum = nextSum.next;
             }
-
-            // Assign the sum to the current node's value.
+          
             modify.val = sum;
             // Move nextSum to the first non-zero value of the next block.
             nextSum = nextSum.next;
