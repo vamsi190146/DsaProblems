@@ -8,7 +8,7 @@ class Solution {
         if(len != t.length()) {
             return false;
         }
-        
+ 
         for(int i = 0; i < len; i++) {
             if(indexS[s.charAt(i)] != indexT[t.charAt(i)]) {
                 return false;
