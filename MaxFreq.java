@@ -13,6 +13,7 @@ class Solution {
         int res=0;
         for(int count:map.values())
         {
+            
             if(count==maxfreq) res=res+count;
         }
         return res;
