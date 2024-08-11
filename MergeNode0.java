@@ -12,7 +12,7 @@ public class Solution {
                 sum += nextSum.val;
                 nextSum = nextSum.next;
             }
-          
+        
             modify.val = sum;
             // Move nextSum to the first non-zero value of the next block.
             nextSum = nextSum.next;
