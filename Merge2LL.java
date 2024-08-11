@@ -3,7 +3,6 @@ class ListNode {
     ListNode next;
     ListNode(int x) { val = x; }
 }
-
 public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
