@@ -14,7 +14,6 @@ class Solution {
                 set2.add(n2);
             }
         }
-
         int[] result = new int[set2.size()];
         int i =0;
         for (int x:set2
