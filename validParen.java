@@ -13,8 +13,6 @@ class Solution {
                 // does not match the closing bracket, the string is not valid, so return false
                 return false;
         }
-        // if the stack is empty, all opening brackets have been matched with their corresponding closing brackets,
-        // so the string is valid, otherwise, there are unmatched opening brackets, so return false
         return stack.isEmpty();
     }
 }
